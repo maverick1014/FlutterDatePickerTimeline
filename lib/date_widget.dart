@@ -30,13 +30,12 @@ class DateWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      splashColor: null,
+    return GestureDetector(
       child: Container(
         width: width,
         margin: const EdgeInsets.all(3.0),
         decoration: BoxDecoration(
-          borderRadius: const BorderRadius.all(Radius.circular(14.0)),
+          borderRadius: const BorderRadius.all(Radius.circular(20.0)),
           color: selectionColor,
         ),
         child: Padding(
