@@ -31,11 +31,12 @@ class DateWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      splashColor: null,
       child: Container(
         width: width,
         margin: const EdgeInsets.all(3.0),
         decoration: BoxDecoration(
-          borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+          borderRadius: const BorderRadius.all(Radius.circular(14.0)),
           color: selectionColor,
         ),
         child: Padding(
